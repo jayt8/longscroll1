@@ -1,0 +1,301 @@
+#counter {
+  position: absolute;
+
+  margin: 0px;
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+#canvas {
+
+  position: relative;
+  margin: 0 auto;
+  width:800px;
+  height:10000px;
+  padding: 0px;
+}
+
+
+.canvas2 {
+
+  width: 50%;
+  margin-left: 1390px;
+  margin-top: 300px;
+}
+
+.canvas3 {
+  float: left;
+  width: 50%;
+  margin-left: 500px;
+  margin-top: 300px;
+}
+
+
+.canvas4 {
+
+  width: 50%;
+  margin-left: 1400px;
+  margin-top: 300px;
+}
+
+
+
+body {
+
+  background: url("img/frontwave.png") repeat-x left 315px,url("img/ship.png") no-repeat right 120px, url("img/wave.png") repeat-x left 270px,
+  linear-gradient(to bottom, #ecc0d6 180px, #d9c298 320px, #acdfe8 300px, #2989dB 14%, #2b738c 57%, #2d4754 85%, #000000 95%);
+}
+
+
+
+
+
+
+
+
+
+
+.header{
+  color: white;
+font-size: 4em;
+font-family: 'Lobster', cursive;
+margin-left: -300px;
+margin-top: 400px;
+opacity: 0.8;
+
+}
+
+
+.header1{
+  color: white;
+font-size: 4em;
+font-family: 'Lobster', cursive;
+margin-left: -300px;
+margin-top: px;
+opacity: 0.8;
+
+}
+
+
+.header2{
+  color: white;
+font-size: 4em;
+font-family: 'Lobster', cursive;
+margin-left: -310px;
+margin-top: px;
+opacity: 0.8;
+
+}
+
+
+.head1 {
+  height: 200px;
+  width: 500px;
+  background-color: #ba89b6;
+  opacity: 0.9;
+  margin-top: -40px;
+  margin-left: -370px;
+}
+
+
+body {
+  background-color: #f1f1f1;
+}
+
+
+.octo {
+  float: left;
+  opacity: 0.1;
+  margin-top: -500px;
+  margin-bottom: 1500px;
+}
+
+.fishschool {
+  opacity: 0.5;
+  margin-top: -690px;
+  margin-left: 100px;
+
+}
+
+
+
+.box {
+  height: 200px;
+  width: 400px;
+  margin-left: -360px;
+  margin-top: -40px;
+  opacity: 0.7;
+}
+
+
+
+.whale{
+  opacity: 0.1;
+  margin-top: -390px;
+  margin-bottom: 2000px;
+
+}
+
+
+.sink{
+
+position: inherit;
+bottom: 0;
+}
+
+
+.deep{
+  opacity: .6;
+  margin-left: 500px;
+  margin-top: 1000px;
+}
+
+
+
+@keyframes octo{
+    0%{
+        top:0px;
+    }
+    50%{
+        top:-20px;
+    }
+    100%{
+        top:0px;
+    }
+}
+
+
+.four {
+opacity: 0.4;
+  margin-top: 5000;
+  margin-left: 250px;
+  margin-bottom: 1500px;
+  overflow: auto;
+}
+
+
+
+.three{
+  margin-top: -9900px;
+  margin-left:1300px;
+  margin-bottom: 700px;
+  opacity: 0.7;
+ z-index: 1;
+}
+
+
+.sink {
+  margin-top: 100px;
+  margin-left: 1050px;
+  opacity: 0.5;
+}
+
+
+
+
+
+@keyframes subMove{
+    0%{
+        top:0px;
+    }
+    50%{
+        top:-20px;
+    }
+    100%{
+        top:0px;
+    }
+}
+.submarine{
+
+    position: fixed;
+    left: 620px;
+    margin-top: 200px;
+    min-width:150px;
+    animation:subMove 1s infinite ;
+    z-index: 5;
+
+}
+
+.ocean{
+width: 100vw;
+
+height: 2200px;
+min-width:500px;
+}
+
+
+
+
+
+
+body {
+  background-color: #42a1c6;
+}
+
+
+
+
+
+
+.ribbon {
+ font-size: 1.5em;
+ height: 20px;
+font-family: 'Lobster', cursive;
+ width: 50%;
+
+ position: relative;
+ background: #ba89b6;
+ color: #fff;
+ text-align: center;
+ padding: 1em 1em ;
+ margin: 2em auto 3em;
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #986794;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #804f7c transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+
+
+
+
+p {
+  width: 50%;
+  font-family: 'Oswald', sans-serif;
+  margin-left: -300px;
+  margin-top: -40px
+
+}
